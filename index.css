@@ -11,21 +11,34 @@ body {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #ffffff;
     border-radius: 20px;
     height: 550px;
     width: 950px;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-position-x: -580px;
+    background-position-y: -295px;
+    background-repeat: no-repeat;
+}
+
+.box-image {
+    margin: 0px 0px -40px -90px;
+    position: relative;
+    z-index: 4;
 }
 
 .image {
-    height: 300px;
+    height: 380px;
+    margin: 0px 0px 50px -300px;
 }
 
 .content {
-    margin: 50px;
+    padding: 0px 120px 30px 0px;
     font-family: 'Kumbh Sans', 'sans-serif';
+    width: 350px;
+    height: 450px;
 }
 
 .title {
@@ -35,9 +48,14 @@ main {
     margin: 10px 0px 40px 0px;
 }
 
+.container-arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
 .question {
     color: hsl(240, 6%, 50%);
-    margin: 10px 0px 10px 0px;
+    margin-bottom: 16px;
     font-size: 15px;
 }
 
@@ -45,8 +63,21 @@ main {
     color: hsl(14, 88%, 65%);
 }
 
+.arrow-down {
+    height: 7px;
+}
+
 .answer {
     color: hsl(240, 1%, 63%);
     font-size: 12px;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.divider {
+    border-color:hsl(240, 5%, 91%);
+    border-top: none;
+    margin-bottom: 16px;
+    border-left: none;
 }
 
