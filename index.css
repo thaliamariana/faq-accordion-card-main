@@ -59,6 +59,11 @@ main {
     font-size: 15px;
 }
 
+.question-selected {
+    color: hsl(238, 29%, 16%);
+    font-weight: bold;
+}
+
 .question:hover {
     color: hsl(14, 88%, 65%);
 }
