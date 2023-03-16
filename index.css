@@ -18,20 +18,22 @@ main {
     height: 550px;
     width: 950px;
     background-image: url("images/bg-pattern-desktop.svg");
-    background-position-x: -580px;
-    background-position-y: -295px;
+    background-position-x: -560px;
+    background-position-y: -280px;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .box-image {
-    margin: 0px 0px -40px -90px;
+    margin: 0px 0px -60px -90px;
     position: relative;
     z-index: 4;
+    position: absolute;
 }
 
 .image {
     height: 380px;
-    margin: 0px 0px 50px -300px;
+    margin: 0px 0px 40px -90px;
 }
 
 .content {
