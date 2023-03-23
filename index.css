@@ -88,3 +88,41 @@ main {
     border-left: none;
 }
 
+@media screen and (max-width: 600px) {
+    main {
+        margin: 0px 30px 0px 30px;
+        background-image: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: visible;
+    }
+
+    .box-image {
+        display: none;
+    }
+
+    .image {
+        height: 200px;
+        margin: -120px 0px 0px 0px ;
+    }
+
+    .content {
+        padding: 60px 0px 0px 0px;
+        overflow: auto;
+        width: 290px;
+        background-image: url(images/bg-pattern-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+    .question {
+        font-size: 14px;
+    }
+    
+    .answer {
+        font-size: 12px;
+        text-align: left;
+        padding: 0px 25px 0px 0px;
+    }
+}
